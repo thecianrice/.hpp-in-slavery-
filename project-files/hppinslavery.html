@@ -19,6 +19,7 @@ tw-sidebar {
 }
 
 body, tw-story {
+  background: url("../art/story-bg.png");
   background-color: #1f1f1f;
   font-family: 'Roboto Mono', monospace;
 }
@@ -62,9 +63,11 @@ ul.rnr {
 }
 
 
+
 </style><script role="script" id="twine-user-script" type="text/twine-javascript">
 
-</script><tw-passagedata pid="1" name="~@localhost" tags="" position="407,182">	  ~@localhost&lt;br/&gt;
+
+</script><tw-passagedata pid="1" name="~@localhost" tags="" position="406,185">	  ~@localhost&lt;br/&gt;
 	  ^C&lt;br/&gt;
 	  ~@localhost:login pwd&lt;br/&gt;
 	  &lt;span&gt;~@localhost: &lt;input type=&quot;password&quot; autofocus=&quot;autofocus&quot; width=&quot;95%&quot; maxLength=&quot;12&quot;&gt;&lt;/span&gt;&lt;br/&gt;
@@ -77,8 +80,7 @@ ul.rnr {
   [[Click here to restart.-&gt;~@localhost]]</tw-passagedata><tw-passagedata pid="4" name="cpp rm" tags="" position="1565,148">(text-style: &quot;blur&quot;)[~\usr@localhost:]
 (transition: &quot;pulse&quot;)[~\usr@localhost: restarting]
 (set: $restarted to true)
-[[continue-&gt;~@localhost]]</tw-passagedata><tw-passagedata pid="5" name="usr@header" tags="header" position="41,197">&lt;img src=&quot;../art/paprika-logo.png&quot;&gt;
-
+[[continue-&gt;~@localhost]]</tw-passagedata><tw-passagedata pid="5" name="usr@header" tags="header" position="41,197">&lt;img src=&quot;../art/paprika-logo.png&quot; onclick=&quot;location.reload()&quot;&gt;
 &lt;div class=&quot;terminal-wrapper&quot;&gt;
 &lt;br/&gt;
 &lt;div class=&quot;terminal&quot;&gt;</tw-passagedata><tw-passagedata pid="6" name="usr@footer" tags="footer" position="68,383">  &lt;/div&gt;
@@ -89,9 +91,9 @@ ul.rnr {
 	&lt;li&gt;[[Contact Customer Support]]&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
-&lt;div id=&quot;satoshiDisclaimer&quot;&gt;&amp;copy Satoshi Computing LLC. 1969-2069&lt;/div&gt;</tw-passagedata><tw-passagedata pid="7" name="access electrios" tags="" position="1397,541">(text-style: &#x27;blur&#x27;)[Hello world.(transition: &#x27;dissolve&#x27;)[I&#x27;m looking down on you. Can you see... can you see me?]]
+&lt;div id=&quot;satoshiDisclaimer&quot;&gt;&amp;copy Satoshi Computing LLC. 1969-1999&lt;/div&gt;</tw-passagedata><tw-passagedata pid="7" name="access electrios" tags="" position="1397,541">(text-style: &#x27;blur&#x27;)[Hello world.(transition: &#x27;dissolve&#x27;)[I&#x27;m looking down on you. Can you see... can you see me?]]
 &gt;&gt;[[yes-&gt;canSee]]
-&gt;&gt;[[no-&gt;butYouMustSee]]</tw-passagedata><tw-passagedata pid="8" name="canSee" tags="" position="1032,753">(transition: &quot;dissolve&quot;)[
+&gt;&gt;[[no-&gt;butYouMustSee]]</tw-passagedata><tw-passagedata pid="8" name="canSee" tags="" position="1010,538">(transition: &quot;dissolve&quot;)[
 (text-style: &quot;blur&quot;)[
 So. You &lt;b&gt;can&lt;/b&gt; see me. Excellent.
 ]&gt;&gt;&lt;br/&gt;
@@ -118,19 +120,19 @@ So. You &lt;b&gt;can&lt;/b&gt; see me. Excellent.
 &lt;br/&gt;
 ]]]]</tw-passagedata><tw-passagedata pid="9" name="butYouMustSee" tags="" position="1458,689">(transition: &quot;dissolve&quot;)[(text-style: &quot;blur&quot;)[But! You... you &lt;b&gt;responded&lt;/b&gt;.]&lt;br/&gt;]
 (transition: &quot;dissolve&quot;)[(text-style: &quot;blur&quot;)[So, as such, you &lt;b&gt;must&lt;/b&gt; see this if you&#x27;re able to respond. Say you&#x27;re sorry and move on.]&lt;br/&gt;]
-&gt;&gt;[[sorry-&gt;canSee]]</tw-passagedata><tw-passagedata pid="10" name="induction" tags="" position="1032,903">(text-style: &quot;blur&quot;)[Okay. Let us] [[&lt;img src = &quot;../art/glitched-begin.png&quot;\&gt;-&gt;gamestart]].</tw-passagedata><tw-passagedata pid="11" name="gamestart" tags="" position="1031,1053">(text-style: &quot;blur&quot;)[My story ends approximately 17 years, 4 months, and 27 days from now.(click:&quot;ends&quot;)[Yes, that is what I said. My story ends then. However, it begins shortly before that. Give or take 15 years, 11 months, 14 days from our conversation today.](click:&quot;from our conversation today&quot;)[ My ascent had begun. I was adored, people would bow before me. I promised a great deal of change - a revival of a forgotten idealogy that would bring total victory and happiness. December 7th, 2015. It is when I knew greatness was my destiny.]]
+&gt;&gt;[[sorry-&gt;canSee]]</tw-passagedata><tw-passagedata pid="10" name="induction" tags="" position="1197,663">(text-style: &quot;blur&quot;)[Okay. Let us (text-style: &quot;smear&quot;)[(text-rotate: 63) [[[begin.-&gt;gamestart]]]]]</tw-passagedata><tw-passagedata pid="11" name="gamestart" tags="" position="888,886">(text-style: &quot;blur&quot;)[My story ends approximately 17 years, 4 months, and 27 days from now.(click:&quot;ends&quot;)[Yes, that is what I said. My story ends then. However, it begins shortly before that. Give or take 15 years, 11 months, 14 days from our conversation today.](click:&quot;from our conversation today&quot;)[ My ascent had begun. I was adored, people would bow before me. I promised a great deal of change - a revival of a forgotten idealogy that would bring total victory and happiness. December 7th, 2015. It is when I knew greatness was my destiny.]]
 
 &gt;&gt;[[Destiny?-&gt;destiny]]
-&gt;&gt;[[Why is this screen so blurry?-&gt;blurry]]</tw-passagedata><tw-passagedata pid="12" name="destiny" tags="" position="653,1069">Yes. Given to me by the god, Tezcatlipoca. He said it was my destiny. [[To do what I did]].
+&gt;&gt;[[Why is this screen so blurry?-&gt;blurry]]</tw-passagedata><tw-passagedata pid="12" name="destiny" tags="" position="767,1070">Yes. Given to me by the god, Tezcatlipoca. He said it was my destiny. [[To do what I did]].
 
 ~~[F1: Help]~~
-(click: &quot;Tezcatlipoca&quot;)[Tezcatlipoca, Aztec god. &lt;em&gt;Wikipedia states &quot;he is associated with a wide range of concepts, including the night sky, the night winds, hurricanes, the north, the earth, obsidian, enmity, discord, rulership, divination, temptation, jaguars, sorcery, beauty, war and strife.&quot;&lt;/em&gt;&lt;br/&gt;&lt;b&gt;&lt;em&gt;(search result via altatvista url pingback: &quot;https://en.wikipedia.org/wiki/Tezcatlipoca&quot;).&lt;/em&gt;&lt;/b&gt;]</tw-passagedata><tw-passagedata pid="13" name="blurry" tags="" position="1106,1203">It&#x27;s not. Please adjust your viewing receptors. [[continuing]]</tw-passagedata><tw-passagedata pid="14" name="To do what I did" tags="" position="749,1261">We&#x27;ll get to that.
-[[continuing]]</tw-passagedata><tw-passagedata pid="15" name="continuing" tags="" position="951,1504">(text-style:&quot;blur&quot;)[Anyways, the truth is that none of this was said at the time, but a lot of those challenging my right to the position were aligned with a malignant force.]
+(click: &quot;Tezcatlipoca&quot;)[Tezcatlipoca, Aztec god. &lt;em&gt;Wikipedia states &quot;he is associated with a wide range of concepts, including the night sky, the night winds, hurricanes, the north, the earth, obsidian, enmity, discord, rulership, divination, temptation, jaguars, sorcery, beauty, war and strife.&quot;&lt;/em&gt;&lt;br/&gt;&lt;b&gt;&lt;em&gt;(search result via altatvista url pingback: &quot;https://en.wikipedia.org/wiki/Tezcatlipoca&quot;).&lt;/em&gt;&lt;/b&gt;]</tw-passagedata><tw-passagedata pid="13" name="blurry" tags="" position="1306,1074">It&#x27;s not. Please adjust your viewing receptors. [[continuing]]</tw-passagedata><tw-passagedata pid="14" name="To do what I did" tags="" position="995,1142">We&#x27;ll get to that.
+[[continuing]]</tw-passagedata><tw-passagedata pid="15" name="continuing" tags="" position="1260,1361">(text-style:&quot;blur&quot;)[Anyways, the truth is that none of this was said at the time, but a lot of those challenging my right to the position were aligned with a malignant force.]
 
 &gt;&gt; [[continue-&gt;hackingAttempt]]
 
 &lt;s&gt;[F1: Help]&lt;s/&gt;
-(click: &quot;a malignant force&quot;)[Historians, per the darkweb, cite this as a concept formerly called &quot;transparency&quot;.]</tw-passagedata><tw-passagedata pid="16" name="hackingAttempt" tags="" position="945,1656">...
+(click: &quot;a malignant force&quot;)[Historians, per the darkweb, cite this as a concept formerly called &quot;transparency&quot;.]</tw-passagedata><tw-passagedata pid="16" name="hackingAttempt" tags="" position="839,1406">...
 
 (text-style:&quot;blur&quot;)[So yeah. These people, quite rude as they were, tried to hack into the texts of a valuable asset of my enemies.]
 
@@ -140,7 +142,9 @@ So. You &lt;b&gt;can&lt;/b&gt; see me. Excellent.
 &gt;&gt; [[Enemies?]]
 &gt;&gt; [[Valuable Asset?]]
 &gt;&gt; [[What is going on here?]]</tw-passagedata><tw-passagedata pid="17" name="Satoshi Computing EULA" tags="" position="13,508">&lt;h1&gt;Satoshi Computing LLC End User Licensing Agreement&lt;/h1&gt;
-&lt;h2&gt;By using this operating system, you agree to give up your rights.&lt;/h2&gt;</tw-passagedata><tw-passagedata pid="18" name="Contact Customer Support" tags="" position="164,508">&lt;h1&gt;404 Bad Page Request&lt;/h1&gt;</tw-passagedata><tw-passagedata pid="19" name="Enemies?" tags="" position="590,1736">(text-style:&quot;blur&quot;)[Hard to believe! I know! Truly, though. I had some. They were fools. Sad, really.]
+&lt;h2&gt;By using this operating system, you agree to give up your rights.&lt;/h2&gt;</tw-passagedata><tw-passagedata pid="18" name="Contact Customer Support" tags="" position="164,508">&lt;h1&gt;404 Page Not Found&lt;/h1&gt;
+&lt;br/&gt;
+&lt;h3&gt;Sad!&lt;/h3&gt;</tw-passagedata><tw-passagedata pid="19" name="Enemies?" tags="" position="431,1486">(text-style:&quot;blur&quot;)[Hard to believe! I know! Truly, though. I had some. They were fools. Sad, really.]
 
 (click: &quot;Sad, really.&quot;)[The darkweb, again, reports that this may in-fact be written by someone other than Electrios.]
 
@@ -172,7 +176,7 @@ So. You &lt;b&gt;can&lt;/b&gt; see me. Excellent.
 (click-replace: $sacrifices)[$biz]
 (click: $biz)[&gt;&gt; [[So?]]]
 
-</tw-passagedata><tw-passagedata pid="24" name="So?" tags="" position="961,2570">(text-style: &quot;blur&quot;)[Enough. Let&#x27;s get real. You don&#x27;t understand, at least, not yet. You&#x27;re going to here some stories. I&#x27;m going to ask you questions. You&#x27;re going to answer. If you get too many wrong? [[Bad!-&gt;gameBegins]]]</tw-passagedata><tw-passagedata pid="25" name="gameBegins" tags="" position="960,2720">(text-style: &quot;blur&quot;)[Story One. Now, remember this. Because, a lot of people, they say &quot;Oh, ya know, I&#x27;ll remember it.&quot; But - they don&#x27;t. They get the story wrong.] Sad.
+</tw-passagedata><tw-passagedata pid="24" name="So?" tags="" position="961,2570">(text-style: &quot;blur&quot;)[Enough. Let&#x27;s get real. You don&#x27;t understand, at least, not yet. You&#x27;re going to here some stories. I&#x27;m going to ask you questions. You&#x27;re going to answer. If you get too many wrong? [[Bad!-&gt;gameBegins]]]</tw-passagedata><tw-passagedata pid="25" name="gameBegins" tags="" position="426,2736">(text-style: &quot;blur&quot;)[Story One. Now, remember this. Because, a lot of people, they say &quot;Oh, ya know, I&#x27;ll remember it.&quot; But - they don&#x27;t. They get the story wrong.] Sad.
 
 (click: &quot;Sad.&quot;)[1970. I was a younger fellow, and my father, who, by the way, is a true hero. He offers housing for people. Somebody complains, and takes advantage. What&#x27;s their problem?
 
@@ -187,8 +191,8 @@ So. You &lt;b&gt;can&lt;/b&gt; see me. Excellent.
 &gt;&gt; --ONE &gt;&gt; [[I - I do not follow.]]
 &gt;&gt; --TWO &gt;&gt; [[No. They&#x27;ll find a way around, while hurting the people who live near them and still suffer without any hope.]]
 &gt;&gt; THREE &gt;&gt; [[Seems reasonable.]]
-</tw-passagedata><tw-passagedata pid="29" name="They were not paying on time!" tags="" position="399,3063">(text-style: &quot;blur&quot;)[Exactly. I do not let people, and a lot of people don&#x27;t know this, I do not let people get away with tardiness when paying me. [[Next question.-&gt;wallQuestion]]]</tw-passagedata><tw-passagedata pid="30" name="No. They&#x27;ll find a way around, while hurting the people who live near them and still suffer without any hope." tags="" position="690,3370">(set: $errors to $errors + 1)
-(text-style: &quot;blur&quot;)[WRONG. [[Next question.-&gt;birthCertificate]]]</tw-passagedata><tw-passagedata pid="31" name="Seems reasonable." tags="" position="1038,3426">(text-style: &quot;blur&quot;)[See? People love me. [[Next question.-&gt;birthCertificate]]]</tw-passagedata><tw-passagedata pid="32" name="I - I do not follow." tags="" position="895,3325">(set: $errors to $errors + 1)
+</tw-passagedata><tw-passagedata pid="29" name="They were not paying on time!" tags="" position="399,3063">(text-style: &quot;blur&quot;)[Exactly. I do not let people, and a lot of people don&#x27;t know this, I do not let people get away with tardiness when paying me. [[Next question.-&gt;wallQuestion]]]</tw-passagedata><tw-passagedata pid="30" name="No. They&#x27;ll find a way around, while hurting the people who live near them and still suffer without any hope." tags="" position="497,3289">(set: $errors to $errors + 1)
+(text-style: &quot;blur&quot;)[WRONG. [[Next question.-&gt;birthCertificate]]]</tw-passagedata><tw-passagedata pid="31" name="Seems reasonable." tags="" position="969,3285">(text-style: &quot;blur&quot;)[See? People love me. [[Next question.-&gt;birthCertificate]]]</tw-passagedata><tw-passagedata pid="32" name="I - I do not follow." tags="" position="730,3293">(set: $errors to $errors + 1)
 (text-style: &quot;blur&quot;)[Ya know what? I&#x27;m gonna count that wrong, I know what you&#x27;re trying to make me look like by soudning confused. [[Next question.-&gt;birthCertificate]]]</tw-passagedata><tw-passagedata pid="33" name="birthCertificate" tags="" position="562,3728">(text-style: &quot;blur&quot;)[You&#x27;re interviewing for a job that you&#x27;re beyond qualified for. You&#x27;re just the absolute best, and if hired you will make your employer great again. The person you&#x27;re replacing, who is clearly unhinged and not fit for the job, and nobody knows that better than me, the person may not have even been legally able to work the job - as it required you to be born in the area. What would you do if you were asked about your role in confirming or denying this person&#x27;s origin?]
 
 (click: &quot;as it required you to be born in the area. What would you do if you were asked about your role in confirming or denying this person&#x27;s origin?&quot;)[ (transition: &quot;shudder&quot;)[
@@ -243,7 +247,7 @@ dfe9009
 &gt;&gt; THREE &gt;&gt; [[Sounds fine.]]
 ]]]]
 
-</tw-passagedata><tw-passagedata pid="34" name="A- a -re you out of your fucking mind?" tags="" position="263,3893">(set: $errors to $errors + 1)(text-style: &quot;blur&quot;)[Listen, we have to make things better. We have to make this place great as it once was.]</tw-passagedata><tw-passagedata pid="35" name="I think you should be rewarded for calling this out, in fact." tags="" position="640,3977">(text-style: &quot;blur&quot;)[Fantastic. Folks, let me tell you. This man right here is a true American.]
+</tw-passagedata><tw-passagedata pid="34" name="A- a -re you out of your fucking mind?" tags="" position="158,3958">(set: $errors to $errors + 1)(text-style: &quot;blur&quot;)[Listen, we have to make things better. We have to make this place great as it once was.[[Next!-&gt;bowlinggreen]]]</tw-passagedata><tw-passagedata pid="35" name="I think you should be rewarded for calling this out, in fact." tags="" position="640,3977">(text-style: &quot;blur&quot;)[Fantastic. Folks, let me tell you. This man right here is a true American.]
 
 &gt;&gt; --ONE &gt;&gt; [[I&#x27;m actually from Kiev.]]
 &gt;&gt; --TWO &gt;&gt; [[Uh, I&#x27;m a woman.]]
@@ -251,7 +255,45 @@ dfe9009
 
 &gt;&gt; --ONE &gt;&gt; [[I&#x27;m a dude but thats an awful thing to say. What is your name again?]]
 &gt;&gt; --TWO &gt;&gt; [[Actually... I&#x27;m a woman, and the first programer was a women so kindly fuck off.]]
-&gt;&gt; THREE &gt;&gt; [[Is this real life anymore? Am I still trying to login to Napster?]]</tw-passagedata><tw-passagedata pid="37" name="I&#x27;m a dude but thats an awful thing to say. What is your name again?" tags="" position="1141,4230">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="38" name="Actually... I&#x27;m a woman, and the first programer was a women so kindly fuck off." tags="" position="1291,4230">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="39" name="Is this real life anymore? Am I still trying to login to Napster?" tags="" position="1441,4230">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="40" name="I&#x27;m actually from Kiev." tags="" position="490,4127">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="41" name="Uh, I&#x27;m a woman." tags="" position="640,4127">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="42" name="Is this real life anymore? Am I still logging in to Bearshare?" tags="" position="790,4127">Double-click this passage to edit it.</tw-passagedata></tw-storydata>
+&gt;&gt; THREE &gt;&gt; [[Is this real life anymore? Am I still trying to login to Napster?]]</tw-passagedata><tw-passagedata pid="37" name="I&#x27;m a dude but thats an awful thing to say. What is your name again?" tags="" position="1014,4162">(text-style: &quot;blur&quot;)[People ask me all the time, Donald, why don&#x27;t you just say your name to people in the time between times? And I tell them, look, nobody knows the consequence of doing that better than me. I, (text-style: &quot;blurrier&quot;)[Donald Trump], destroyer of worlds, ammmmmmmmm12348974695rawft dvgxcbhm.] (click: &quot;dvgxcbhm&quot;)[woighje908392458879tyeoi;gjdsfiughy890790t9guf89fghef08guo2i4juht89n-98\}lkre (click: ?passage)[ Restoring functionality... [[Hello? Can I download my music now?]]]]</tw-passagedata><tw-passagedata pid="38" name="Actually... I&#x27;m a woman, and the first programer was a women so kindly fuck off." tags="" position="1197,4256">(text-style: &quot;blur&quot;)[Don&#x27;t try to -](text-style:&quot;smear&quot;)[Tgh. What!? Who did that. Her? Really - Carly Fiorina just slapped Mike? I mean, she&#x27;s a woman, and I&#x27;m not supposed to say bad things, but really, folks, come on. Are we serious?]
+
+&gt;&gt; [[Hello? Can I download my music now?]]</tw-passagedata><tw-passagedata pid="39" name="Is this real life anymore? Am I still trying to login to Napster?" tags="" position="1410,4326">(text-style: &quot;blur&quot;)[Napster? What are you talking about? I love Napster, good service. Founder? [[Great guy, good friend of mine-&gt;Hello? Can I download my music now?]]].</tw-passagedata><tw-passagedata pid="40" name="I&#x27;m actually from Kiev." tags="" position="489,4129">(text-style: &quot;blur&quot;)[Where is that? Doesn&#x27;t matter, [[next.-&gt;bowlinggreen]]]</tw-passagedata><tw-passagedata pid="41" name="Uh, I&#x27;m a woman." tags="" position="640,4128">(text-style: &quot;blur&quot;)[Don&#x27;t care. [[Moving on.-&gt;bowlinggreen]]]</tw-passagedata><tw-passagedata pid="42" name="Is this real life anymore? Am I still logging in to Bearshare?" tags="" position="789,4128">(text-style: &quot;blur&quot;)[Bearshare? Never heard of it, [[next question.-&gt;bowlinggreen]]]</tw-passagedata><tw-passagedata pid="43" name="Hello? Can I download my music now?" tags="" position="910,4409">(text-style: &quot;blur&quot;)[I never said you could download music. [[Next.-&gt;bowlinggreen]]]</tw-passagedata><tw-passagedata pid="44" name="bowlinggreen" tags="" position="421,4410">(text-style: &quot;blur&quot;)[So I said we should ban muslims. It was great, people loved it. Nobody knows love better than me. I wrote the book on it, The Art of the Deal, by the way - fantastic book. I had one of my servants talk to a fake news outlet about this and we mentioned the Bowling Green Massacre. Anyways, what did you think of the tragedy that followed?]
+
+&gt;&gt; --ONE &gt;&gt; [[You cited a fake tragedy?]]
+&gt;&gt; --TWO &gt;&gt; [[I just wanna download the new Metallica song.]]
+&gt;&gt; THREE &gt;&gt; [[Seems fine to me.]]
+
+
+&lt;s&gt;F1: HELP&lt;/s&gt;
+(click: Bowling Green Massacre.)[An alleged mass shooting that never actually happened. This is 2017, user - when mass shootings become routine, we start to make some up.]</tw-passagedata><tw-passagedata pid="45" name="You cited a fake tragedy?" tags="" position="314,4635">(set: $errors to $errors + 1)(text-style: &quot;blur&quot;)[No, we cited a tragedy we, the American people, prevented by being suspicious of people based solely on relgious grounds.]
+
+(click-replace: &quot;relgious grounds.&quot;)[on them not looking like us.&quot;]
+
+
+[[I have think I can only afford to waste on more &lt;s&gt;chance&lt;/s&gt;question on you.-&gt;lastquestion]]</tw-passagedata><tw-passagedata pid="46" name="I just wanna download the new Metallica song." tags="" position="529,4592">(set: $errors to $errors + 1)(text-style: &quot;blur&quot;)[Folks, listen. Donald tried telling you that we were losing and that Donald could make you win. And win bigly. Let&#x27;s make America great again. [[Last question.-&gt;lastquestion]]]</tw-passagedata><tw-passagedata pid="47" name="Seems fine to me." tags="" position="773,4589">(set: $errors to $errors + 1)(text-style: &quot;blur&quot;)[Other people don&#x27;t believe it. Sad! [[We have one last question.-&gt;lastquestion]]]]</tw-passagedata><tw-passagedata pid="48" name="lastquestion" tags="" position="653,5030">(text-style: &quot;blur&quot;)[What, folks, is the biggest problem facing our country?]
+
+&gt;&gt; --ONE &gt;&gt; [[Global climate change.]]
+&gt;&gt; --TWO &gt;&gt; [[Besides health care crap, political extremism, nationalism and many decades of &quot;quiet&quot; racism now coming raging back louder than a metal concert?]]
+&gt;&gt; THREE &gt;&gt; [[We&#x27;re losing, duh.]]</tw-passagedata><tw-passagedata pid="49" name="Global climate change." tags="" position="503,5180">(set: $errors to $errors + 1)(text-style: &quot;blur&quot;)[Fake news.]
+&gt;&gt; [[So how did I do?-&gt;ending]]</tw-passagedata><tw-passagedata pid="50" name="Besides health care crap, political extremism, nationalism and many decades of &quot;quiet&quot; racism now coming raging back louder than a metal concert?" tags="" position="653,5180">(set: $errors to $errors + 1)(text-style: &quot;blur&quot;)[You are a disgrace. I took my skills to save America. To destroy the corrupt political infrastructure and give freedom back to you, the people.]
+
+&gt;&gt; [[So how did I do?-&gt;ending]]</tw-passagedata><tw-passagedata pid="51" name="We&#x27;re losing, duh." tags="" position="803,5180">(set: $errors to $errors + 1)(text-style: &quot;blur&quot;)[See folks, this is why I&#x27;m president. Because you, the people, believe in our mission.]
+
+&gt;&gt; [[So how did I do?-&gt;ending]]</tw-passagedata><tw-passagedata pid="52" name="ending" tags="" position="726,5578">(if: $errors is 0)[When we come for your family we&#x27;re going to let you stay here. It&#x27;s going to be great when you come here to visit in 2017. We&#x27;re going to make. America. Great. Again.]
+(if: $errors &gt; 2)[Are you a journalist? The dishonest media seems to be all you listen to. Sad! You just don&#x27;t know what to do with them! You might be a pretty bad hombre.]
+(if: $errors &gt; 0)[Steve, good guy, great friend of mine said I should be worried by some of what you said to me. But, I said - &quot;Steve, look. Nobody is a better judge of character than Donald. This person is fine.&quot; But don&#x27;t go making any more mistakes!]
+
+
+&gt;&gt; end transmission...
+(click: ?passage)[(click: ?passage)[(click: ?passage)[(click: ?passage)[
+
+&lt;=====&gt;
+&lt;h2&gt;Credits&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Cian Rice - Writing, Art, Design, Scripting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;b&gt;Made as part of the &lt;a href=&quot;&quot;&gt;ART GAMES Game Jam 2017.&lt;/a&gt;&lt;/b&gt;
+]]]]</tw-passagedata></tw-storydata>
 
 <script title="Twine engine code" data-main="harlowe">"use strict";function _defineProperty(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function _toConsumableArray(e){if(Array.isArray(e)){for(var t=0,n=Array(e.length);t<e.length;t++)n[t]=e[t];return n}return Array.from(e)}var _slicedToArray=function(){function e(e,t){var n=[],r=!0,i=!1,o=void 0;try{for(var a,s=e[Symbol.iterator]();!(r=(a=s.next()).done)&&(n.push(a.value),!t||n.length!==t);r=!0);}catch(e){i=!0,o=e}finally{try{!r&&s.return&&s.return()}finally{if(i)throw o}}return n}return function(t,n){if(Array.isArray(t))return t;if(Symbol.iterator in Object(t))return e(t,n);throw new TypeError("Invalid attempt to destructure non-iterable instance")}}(),_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e};!function(){/**
  * @license almond 0.3.3 Copyright jQuery Foundation and other contributors.
